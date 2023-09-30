@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the form container */
+#form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-image: url("2.gif");
+    background-repeat: no-repeat;
+    background-color: #010e06;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(84, 218, 241, 0.2);
+}
+
+/* Style form inputs and buttons */
+input[type="text"],
+input[type="number"],
+button {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+   
+}
+
+/* Style buttons individually */
+#postButton {
+    background-color: #c0023b;
+    color: #fff;
+    border: 5px;
+    cursor: pointer;
+    width: 95%;
+}
+
+#getButton {
+    background-color: #2196F3;
+    color: #fff;
+    width: 95%;
+    border: 5px;
+    cursor: pointer;
+}
+
+#putButton {
+    background-color: #ff9800;
+    color: #fff;
+    border: 5px;
+    width: 95%;
+    cursor: pointer;
+}
+
+#deleteButton {
+    background-color: #06e791;
+    color: #fff;
+    border: 6px;
+    cursor: pointer;
+}
+
+/* Add some spacing to the result container */
+#results {
+    margin-top: 20px;
+}
+
+/* Style result container */
+#results p {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+}                              
