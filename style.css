@@ -1,5 +1,9 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url("3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
@@ -37,13 +41,13 @@ button {
     color: #fff;
     border: 5px;
     cursor: pointer;
-    width: 95%;
+    width: 400px;
 }
 
 #getButton {
     background-color: #2196F3;
     color: #fff;
-    width: 95%;
+    width: 400px;
     border: 5px;
     cursor: pointer;
 }
@@ -52,7 +56,7 @@ button {
     background-color: #ff9800;
     color: #fff;
     border: 5px;
-    width: 95%;
+    width: 400px;
     cursor: pointer;
 }
 
@@ -61,6 +65,7 @@ button {
     color: #fff;
     border: 6px;
     cursor: pointer;
+    width: 400px;
 }
 
 /* Add some spacing to the result container */
